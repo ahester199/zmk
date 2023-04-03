@@ -1,0 +1,12 @@
+file_format: "1"
+id: v1
+name: v1
+type: shield
+url: https://github.com/ahester199/zmk-config/tree/main/config/boards/shields/v1
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - v1_left
+  - v1_right
